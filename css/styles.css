@@ -1,0 +1,189 @@
+
+body{
+  font-family: "Montserrat"
+}
+
+#title{
+  background-color: grey;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: "Montez";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 80px 20px 50px;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 3.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Nosifer";
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.dbtn{
+  margin: 5% 3% 5% 0;
+}
+/* Image pencils */
+.rot{
+  width: 60%;
+  /* transform: rotate(25deg); */
+  /* margin-top: 100px; */
+}
+.rot:hover{
+  width: 70%;
+}
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4.5%
+}
+
+h3{
+  font-family: "Montez";
+  font-weight: 700;
+}
+.penimg{
+  width: 30px;
+  padding: 20px 0;
+}
+.artimg{
+  width: 50px;
+  padding: 1rem 0;
+}
+.hunimg{
+width: 50%;
+padding: 2rem 0;
+}
+p{
+  font-family: "Montserrat";
+  font-weight: 400px;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: grey;
+
+}
+.ridimg{
+  padding: 30px 10px;
+  width: 30%;
+  border-radius: 100%;
+}
+
+.fri{
+  padding: 30px 5px;
+  width: 20%;
+  border-radius: 100%;
+}
+
+.ridtext{
+  font-family: "Montserrat-bold";
+  font-weight: 400px;
+
+}
+
+#press{
+text-align: center;
+background-color: grey;
+
+}
+.pressimg{
+  width: 10%;
+  margin: 20px 20px;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: lightgrey;
+  border-radius: 25%;
+}
+
+#about{
+ min-height: 400px;
+
+}
+
+
+
+.scrollbar{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 50px  ;
+  height: 100%;
+  background-color: rgba(171, 171, 171, 0.0);
+  width: 500px;
+}
+.scroll{
+  overflow: hidden;
+  height: 300px;
+  background-color: rgba(171, 171, 171, 0.0);
+  overflow-y: scroll;
+}
+
+#cta{
+  text-align: center;
+ 
+}
+
+.hcta{
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: lightpink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+  background-color: grey;
+  height: 150px;
+  margin: 20px 0 0;
+
+
+}
+.foot{
+  padding: 100px 0 0 0;
+  text-align: center;
+}
